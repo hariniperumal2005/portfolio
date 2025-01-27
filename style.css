@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff5f8;
+    color: #4a4a4a;
+  }
+  
+  .main-header {
+    background: linear-gradient(135deg, #ffccd5, #ff99b8);
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .main-header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section, .skills-section, .strength-section, .projects-section, .contact-section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #ff99b8;
+    border-bottom: 2px solid #ff99b8;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  ul {
+    padding-left: 20px;
+    color: #6b6b6b;
+  }
+  
+  .project-card {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ffd6e8;
+    border-radius: 8px;
+    background: #fff0f5;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+    color: #cc0066;
+  }
+  
+  .project-card p {
+    margin: 5px 0;
+    color: #6b6b6b;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ffd6e9;
+    border-radius: 8px;
+    background: #fff5fa;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: #ff99b8;
+    box-shadow: 0 0 5px rgba(255, 153, 184, 0.5);
+  }
+  
+  .contact-form button {
+    background: linear-gradient(135deg, #ff99b8, #ffccd5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background: linear-gradient(135deg, #ffccd5, #ff99b8);
+  }
+  
+  .main-footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #ff99b8;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
